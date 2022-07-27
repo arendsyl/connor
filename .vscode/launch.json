@@ -1,0 +1,19 @@
+{
+    "configurations": [
+    {
+        "console": "integratedTerminal",
+        "name": "Run dev mode",
+        "request": "launch",
+        "runtimeArgs": [
+            "run",
+            "dev"
+        ],
+        "runtimeExecutable": "npm",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node",
+        "envFile": "${workspaceFolder}/.env"
+    }
+    ]
+}
